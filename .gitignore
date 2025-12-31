@@ -25,6 +25,7 @@ Thumbs.db
 
 # Exports
 *.md
+!README_CN.md
 !README.md
 !plugins/**/README.md
 !skills/**/SKILL.md
