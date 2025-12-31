@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zsk-coding-plugins",
+  "version": "1.0.0",
+  "description": "zhangshikang 的 Claude Code 插件集合 - 提升编码效率和开发体验的实用工具集",
+  "owner": {
+    "name": "zhangshikang",
+    "email": "zhangshikang067@gmail.com"
+  },
+  "homepage": "https://github.com/zhangshikang067/zsk-coding-plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangshikang067/zsk-coding-plugins.git"
+  },
+  "plugins": [
+    {
+      "name": "session-export",
+      "source": "./plugins/session-export",
+      "category": "productivity",
+      "description": "列出、搜索和导出 Claude Code 会话到 Markdown/JSON 格式"
+    }
+  ]
+}
